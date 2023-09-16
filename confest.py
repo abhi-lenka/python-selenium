@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 # browsers = ["Edge", "Chrome"]
-browsers = ["Edge"]
+browsers = ["Chrome"]
 
 
 @pytest.fixture(scope="session", autouse=True, params=browsers)
